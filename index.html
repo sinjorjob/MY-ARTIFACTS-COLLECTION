@@ -10,8 +10,8 @@
         body, html {
             margin: 0;
             padding: 0;
-            height: 100%;
-            overflow: hidden;
+                  /* height: 100%; を削除 */
+            /* overflow: hidden; を削除 */
         }
         body {
             font-family: 'Montserrat', sans-serif;
@@ -19,6 +19,7 @@
             line-height: 1.6;
             position: relative;
             background: linear-gradient(135deg, #0f0f1f, #1a1a3a);
+            min-height: 100vh; /* 最小高さを100vhに設定 */
         }
         #starfield {
             position: fixed;
